@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Build and Install Tree</title>
+    <style>
+        .tree {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            font-family: Arial, sans-serif;
+        }
+
+        .tree-node {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin: 10px 0;
+        }
+
+        .tree-node > div {
+            padding: 5px 10px;
+            background-color: #f1f1f1;
+            border-radius: 5px;
+            margin: 5px 0;
+        }
+
+        .tree-node > div.active {
+            background-color: #4CAF50;
+            color: white;
+        }
+
+        .tree-children {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+        }
+
+        .tree-children > .tree-node {
+            margin: 0 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="tree">
+        <div class="tree-node">
+            <div class="active">Build and Install</div>
+        </div>
+        <div class="tree-children">
+            <div class="tree-node">
+                <div>Desktop</div>
+                <div class="tree-children">
+                    <div class="tree-node">
+                        <div>Pre Built(pip)</div>
+                    </div>
+                    <div class="tree-node">
+                        <div>Build From Source</div>
+                        <div class="tree-children">
+                            <div class="tree-node">
+                                <div>Linux</div>
+                            </div>
+                            <div class="tree-node">
+                                <div>MacOS</div>
+                            </div>
+                            <div class="tree-node">
+                                <div>Windows Native</div>
+                            </div>
+                            <div class="tree-node">
+                                <div>Windows WSL</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="tree-node">
+                <div>ARM Boards(Edge) (Raspberry Pi, Coral)</div>
+                <div class="tree-children">
+                    <div class="tree-node">
+                        <div>Cross Compilation (Make)</div>
+                    </div>
+                    <div class="tree-node">
+                        <div>Cross Compilation (Bazel)</div>
+                    </div>
+                    <div class="tree-node">
+                        <div>AArch64(ARM64)</div>
+                    </div>
+                    <div class="tree-node">
+                        <div>ARMv7 NEON enabled</div>
+                    </div>
+                    <div class="tree-node">
+                        <div>Raspberry Pi Zero (ARMv6)</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="tree-children">
+            <div class="tree-node">
+                <div>Mobile</div>
+                <div class="tree-children">
+                    <div class="tree-node">
+                        <div>iOS</div>
+                        <div class="tree-children">
+                            <div class="tree-node">
+                                <div>Prebuilt Cocoapods (Stable/Nightly)</div>
+                            </div>
+                            <div class="tree-node">
+                                <div>Local Build</div>
+                                <div class="tree-children">
+                                    <div class="tree-node">
+                                        <div>Xcode</div>
+                                    </div>
+                                    <div class="tree-node">
+                                        <div>Bazel (Framework Build)</div>
+                                    </div>
+                                    <div class="tree-node">
+                                        <div>Dynamic Build</div>
+                                    </div>
+                                    <div class="tree-node">
+                                        <div>Static Build</div>
+                                    </div>
+                                    <div class="tree-node">
+                                        <div>Selectively Build</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tree-node">
+                        <div>Android</div>
+                        <div class="tree-children">
+                            <div class="tree-node">
+                                <div>Nightly Snapshots</div>
+                            </div>
+                            <div class="tree-node">
+                                <div>Local Build</div>
+                                <div class="tree-children">
+                                    <div class="tree-node">
+                                        <div>Docker Build</div>
+                                    </div>
+                                    <div class="tree-node">
+                                        <div>Manual Build (Bazel)</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
+
+
+
