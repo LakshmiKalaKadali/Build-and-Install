@@ -1,7 +1,17 @@
 # Build-and-Install
-<a href="[./Destop BI (1).svg](https://github.com/LakshmiKalaKadali/Build-and-Install/blob/main/Desktop%20BI%20(1).svg)" target="_blank">
-    <img src="https://github.com/LakshmiKalaKadali/Build-and-Install/blob/main/Desktop%20BI%20(1).svg" />
-</a>
+```mermaid
+graph TD
+    A[Desktop]
+    B[PreBuilt]
+    C[Build from Source]
+
+    A --> B
+    A --> C
+    
+    click A href "https://www.tensorflow.org/install/pip#windows-native"
+    click B href "https://www.tensorflow.org/install/pip#windows-native"
+    click C href "https://www.tensorflow.org/install/pip#windows-native"
+
 
 
 
