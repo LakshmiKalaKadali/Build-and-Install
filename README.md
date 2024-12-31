@@ -1,3 +1,4 @@
 # Build-and-Install
 
-![SVG Image](../main/mindmap.svg)
+[Click here to view the HTML page](index.html)
+
