@@ -1,5 +1,5 @@
-# Build-and-Install
-
+#  Build-and-Install Matrix for Multi Architecture
+ 
 
 The purpose of this diagram is to provide a clear and concise visual representation of the different build and installation options available for a software project across various platforms (desktop, ARM boards, and mobile). It serves as a roadmap for developers, helping them quickly identify the appropriate build method based on their target environment and preferred tools. This facilitates easier navigation of the build process, reducing confusion and saving time. It also helps in understanding the project's build system complexity and dependencies.
 
@@ -20,6 +20,10 @@ It's organized hierarchically:
 *iOS:* Supports pre-built CocoaPods (stable or nightly), local builds using Xcode, or Bazel for framework builds (with dynamic, static, or selective linking).
 
 *Android:* Offers nightly snapshots, local builds, Docker builds, or manual builds using Bazel.
+
+
+
+****Build-and-Install Mindmap****
 
 ```mermaid
 graph TD
