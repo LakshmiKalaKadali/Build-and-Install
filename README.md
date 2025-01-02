@@ -1,4 +1,4 @@
-#  Build-and-Install Matrix for Multi Architecture
+#  Build-and-Install Roadmap for Multi Architecture
  
 
 The purpose of this diagram is to provide a clear and concise visual representation of the different build and installation options available for a software project across various platforms (desktop, ARM boards, and mobile). It serves as a roadmap for developers, helping them quickly identify the appropriate build method based on their target environment and preferred tools. This facilitates easier navigation of the build process, reducing confusion and saving time. It also helps in understanding the project's build system complexity and dependencies.
