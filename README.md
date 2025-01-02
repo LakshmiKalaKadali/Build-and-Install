@@ -51,7 +51,7 @@ graph TD
     H --> N[Windows]
     click N "https://www.tensorflow.org/install/source_windows"
     N --> O[Bazel]
-    click O "https://www.tensorflow.org/install/source_windows"
+    click O "https://www.tensorflow.org/install/source_windows#install_bazel"
 
     A --> P[ARM Boards]
     click P "https://ai.google.dev/edge/litert/build/arm"
