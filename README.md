@@ -26,7 +26,7 @@ It's organized hierarchically:
 ****Build-and-Install Mindmap****
 
 ```mermaid
-   %%{init: { 'themeVariables': { 'fontSize': '32px' } } }%%
+   %%{init: { 'themeVariables': { 'fontSize': '48px' } } }%%
 graph TD
     A[Build and Install] --> B[Desktop]
     B --> C[PreBuilt]
