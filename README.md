@@ -90,7 +90,7 @@ graph TD
     AE --> AF[Nightly Snapshots]
     click AF "https://ai.google.dev/edge/litert/build/android#use_nightly_snapshots"
     AE --> AG[Local Build]
-    click AE "https://ai.google.dev/edge/litert/build/android#build_litert_locally"
+    click AG "https://ai.google.dev/edge/litert/build/android#build_litert_locally"
     AG --> AH[Docker Build]
     click AH "https://ai.google.dev/edge/litert/build/android#set_up_build_environment_using_docker"
     AG --> AI[Manual Build Bazel]
