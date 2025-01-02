@@ -1,7 +1,7 @@
-#  Build-and-Install Roadmap for Multi Architecture
+#  Tensorflow Build-and-Install Roadmap for Multi Architecture
  
 
-The purpose of this diagram is to provide a clear and concise visual representation of the different build and installation options available for a software project across various platforms (desktop, ARM boards, and mobile). It serves as a roadmap for developers, helping them quickly identify the appropriate build method based on their target environment and preferred tools. This facilitates easier navigation of the build process, reducing confusion and saving time. It also helps in understanding the project's build system complexity and dependencies.
+The purpose of this diagram is to provide a clear and concise visual representation of the different tensorflow build and installation options available for a software project across various platforms (desktop, ARM boards, and mobile). It serves as a roadmap for developers, helping them quickly identify the appropriate build method based on their target environment and preferred tools. This facilitates easier navigation of the build process, reducing confusion and saving time. It also helps in understanding the project's build system complexity and dependencies.
 
 It's organized hierarchically:
 
@@ -23,13 +23,15 @@ It's organized hierarchically:
 
 
 
-****Build-and-Install Mindmap****
+****Tensorflow Build-and-Install Mindmap:****
 
 ```mermaid
-   %%{init: { 'themeVariables': { 'fontSize': '48px' } } }%%
+   %%{init: { 'themeVariables': {'titleFontSize': '50px','fontSize': '40px' } } }%%
 graph TD
+
     A[Build and Install] --> B[Desktop]
     B --> C[PreBuilt]
+    click C "https://www.tensorflow.org/install/pip"
     C --> D[Linux]
     click D "https://www.tensorflow.org/install/pip#linux"
     C --> E[MacOS]
@@ -39,6 +41,7 @@ graph TD
     C --> G(Windows<br>WSL)
     click G "https://www.tensorflow.org/install/pip#windows-wsl2"
     B --> H(Build From Source)
+    click H "https://www.tensorflow.org/install/source"
     H --> I[Linux]
     click I "https://www.tensorflow.org/install/source#ubuntu"
     H --> J[Mac]
@@ -55,7 +58,6 @@ graph TD
     click O "https://www.tensorflow.org/install/source_windows#install_bazel"
 
     A --> P[ARM Boards]
-    click P "https://ai.google.dev/edge/litert/build/arm"
     P --> Q[Cross Compilation Cmake]
     click Q "https://ai.google.dev/edge/litert/build/cmake_arm"
     P --> R[Cross Compilation Bazel]
@@ -96,6 +98,7 @@ graph TD
     click AH "https://ai.google.dev/edge/litert/build/android#set_up_build_environment_using_docker"
     AG --> AI[Manual Build Bazel]
     click AI "https://ai.google.dev/edge/litert/build/android#install_bazel_and_android_prerequisites"
+    
 
 
 
