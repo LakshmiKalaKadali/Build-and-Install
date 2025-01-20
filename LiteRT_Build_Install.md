@@ -5,11 +5,13 @@ The purpose of this diagram is to provide a clear and concise visual representat
 
 It's organized hierarchically:
 
-**Mobile:** Deals with building for mobile platforms.
+**Mobile:** Deals with building for mobile platforms, covering topics such as compilation, linking, and packaging
 
 *iOS:* Supports pre-built CocoaPods (stable or nightly), local builds using Xcode, or Bazel for framework builds (with dynamic, static, or selective linking).
 
-*Android:* Offers nightly snapshots, local builds, Docker builds, or manual builds using Bazel.**ARM Boards (Edge):** Focuses on building for ARM-based devices (e.g., Raspberry Pi, Coral). Employs cross-compilation techniques (using CMake or Bazel) to build on a different architecture than the target device. Targets include AArch64, ARMv7 with NEON, and Raspberry Pi Zero (ARMv6).
+*Android:* Offers nightly snapshots, local builds, Docker builds, or manual builds using Bazel.
+
+**ARM Boards (Edge):** Focuses on building for ARM-based devices (e.g., Raspberry Pi, Coral). Employs cross-compilation techniques (using CMake or Bazel) to build on a different architecture than the target device. Targets include AArch64, ARMv7 with NEON, and Raspberry Pi Zero (ARMv6).
 
 
 ****LiteRT Build-and-Install Mindmap:****
