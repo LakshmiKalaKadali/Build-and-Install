@@ -1,17 +1,9 @@
-#  Tensorflow Build-and-Install Roadmap for Multi Architecture
+#  LiteRT Build-and-Install Roadmap for Multi Architecture
  
 
-The purpose of this diagram is to provide a clear and concise visual representation of the different tensorflow build and installation options available for a software project across various platforms (desktop, ARM boards, and mobile). It serves as a roadmap for developers, helping them quickly identify the appropriate build method based on their target environment and preferred tools. This facilitates easier navigation of the build process, reducing confusion and saving time. It also helps in understanding the project's build system complexity and dependencies.
+The purpose of this diagram is to provide a clear and concise visual representation of the different LiteRT build and installation options available for a software project across various platforms (desktop, ARM boards, and mobile). It serves as a roadmap for developers, helping them quickly identify the appropriate build method based on their target environment and preferred tools. This facilitates easier navigation of the build process, reducing confusion and saving time. It also helps in understanding the project's build system complexity and dependencies.
 
 It's organized hierarchically:
-
-**Build and Install (Top Level):** The overarching process encompasses all the following methods.
-
-**Desktop:** Covers builds for traditional desktop operating systems.
-
-*Pre Built (pip):* Simplest installation using pre-built packages (likely Python, given the "pip" reference). Supports Linux, macOS, and Windows (native or via WSL).
-
-*Build From Source:* Building the project from source code. Provides options for Linux, macOS, and Windows, using Bazel or Docker for build management.
 
 **ARM Boards (Edge):** Focuses on building for ARM-based devices (e.g., Raspberry Pi, Coral). Employs cross-compilation techniques (using CMake or Bazel) to build on a different architecture than the target device. Targets include AArch64, ARMv7 with NEON, and Raspberry Pi Zero (ARMv6).
 
@@ -23,7 +15,7 @@ It's organized hierarchically:
 
 
 
-****Tensorflow Build-and-Install Mindmap:****
+****LiteRT Build-and-Install Mindmap:****
 
 ```mermaid
    %%{init: { 'themeVariables': {'titleFontSize': '50px','fontSize': '40px' } } }%%
