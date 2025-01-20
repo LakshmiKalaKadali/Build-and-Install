@@ -21,19 +21,6 @@ It's organized hierarchically:
    %%{init: { 'themeVariables': {'titleFontSize': '50px','fontSize': '40px' } } }%%
 graph TD
 
-    A[Build and Install] --> P[ARM Boards]
-    P --> Q[Cross Compilation Cmake]
-    click Q "https://ai.google.dev/edge/litert/build/cmake_arm"
-    P --> R[Cross Compilation Bazel]
-    click R "https://ai.google.dev/edge/litert/build/arm#cross-compilation_for_arm_with_bazel"
-    Q --> S[AArch64 ARM64]
-    click S "https://ai.google.dev/edge/litert/build/cmake_arm#build_for_aarch64_arm64"
-    Q --> T[ARMv7 NEON enabled]
-    click T "https://ai.google.dev/edge/litert/build/cmake_arm#build_for_armv7_neon_enabled"
-    R --> U[Raspberry Pi Zero ARMv6]
-    click U "https://ai.google.dev/edge/litert/build/cmake_arm#build_for_raspberry_pi_zero_armv6"
-
-
     A --> V[Mobile]
     V --> W[Ios]
     click W "https://ai.google.dev/edge/litert/build/ios"
@@ -62,6 +49,20 @@ graph TD
     click AH "https://ai.google.dev/edge/litert/build/android#set_up_build_environment_using_docker"
     AG --> AI[Manual Build Bazel]
     click AI "https://ai.google.dev/edge/litert/build/android#install_bazel_and_android_prerequisites"
+
+    A[Build and Install] --> P[ARM Boards]
+    P --> Q[Cross Compilation Cmake]
+    click Q "https://ai.google.dev/edge/litert/build/cmake_arm"
+    P --> R[Cross Compilation Bazel]
+    click R "https://ai.google.dev/edge/litert/build/arm#cross-compilation_for_arm_with_bazel"
+    Q --> S[AArch64 ARM64]
+    click S "https://ai.google.dev/edge/litert/build/cmake_arm#build_for_aarch64_arm64"
+    Q --> T[ARMv7 NEON enabled]
+    click T "https://ai.google.dev/edge/litert/build/cmake_arm#build_for_armv7_neon_enabled"
+    R --> U[Raspberry Pi Zero ARMv6]
+    click U "https://ai.google.dev/edge/litert/build/cmake_arm#build_for_raspberry_pi_zero_armv6"
+
+
     
 
 
