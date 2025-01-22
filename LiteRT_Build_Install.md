@@ -48,7 +48,7 @@ graph TD
     click AH "https://ai.google.dev/edge/litert/build/android#build_litert_locally"
     AH --> AI[Docker Build]
     click AI "https://ai.google.dev/edge/litert/build/android#set_up_build_environment_using_docker"
-    AI --> AJ[Manual Build Bazel]
+    AH --> AJ[Without Docker using Bazel]
     click AJ "https://ai.google.dev/edge/litert/build/android#install_bazel_and_android_prerequisites"
 
     A[Build and Install] --> P[ARM Boards]
