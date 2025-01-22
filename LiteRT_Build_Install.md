@@ -52,13 +52,13 @@ graph TD
     click AJ "https://ai.google.dev/edge/litert/build/android#install_bazel_and_android_prerequisites"
 
     A[Build and Install] --> P[ARM Boards]
-    P --> Q[Cross Compilation Cmake]
-    click Q "https://ai.google.dev/edge/litert/build/cmake_arm"
-    P --> R[Cross Compilation Bazel]
-    click R "https://ai.google.dev/edge/litert/build/arm#cross-compilation_for_arm_with_bazel"
-    Q --> S[AArch64 ARM64]
+    P --> Q[Cross Compilation Bazel]
+    click Q "https://ai.google.dev/edge/litert/build/arm#cross-compilation_for_arm_with_bazel"
+    P --> R[Cross Compilation Cmake]
+    click R "https://ai.google.dev/edge/litert/build/cmake_arm"
+    R --> S[AArch64 ARM64]
     click S "https://ai.google.dev/edge/litert/build/cmake_arm#build_for_aarch64_arm64"
-    Q --> T[ARMv7 NEON enabled]
+    R --> T[ARMv7 NEON enabled]
     click T "https://ai.google.dev/edge/litert/build/cmake_arm#build_for_armv7_neon_enabled"
     R --> U[Raspberry Pi Zero ARMv6]
     click U "https://ai.google.dev/edge/litert/build/cmake_arm#build_for_raspberry_pi_zero_armv6"
