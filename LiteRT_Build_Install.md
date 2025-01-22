@@ -27,27 +27,29 @@ graph TD
     click X "https://ai.google.dev/edge/litert/ios/quickstart"
     W --> Y[Local Build]
     click Y "https://ai.google.dev/edge/litert/build/ios#building_locally"
-    X --> Z[Xcode]
-    click Z "https://ai.google.dev/edge/litert/build/ios#install_xcode"
-    Y --> AA[Bazel Framework Build]
-    click AA "https://ai.google.dev/edge/litert/build/ios#install_bazel"
-    AA --> AB[Dynamic Build]
-    click AB "https://ai.google.dev/edge/litert/build/ios#build_tensorflowlitec_dynamic_framework_recommended"
-    AA --> AC[Static Build]
-    click AC "https://ai.google.dev/edge/litert/build/ios#build_tensorflowlitec_static_framework"
-    AA --> AD[Selectively Build]
-    click AD "https://ai.google.dev/edge/litert/build/ios#selectively_build_tflite_frameworks"
+    X --> Z[Cocopod Developers]
+    click Z "https://ai.google.dev/edge/litert/ios/quickstart#cocoapods_developers"
+    X --> AA[Bazel Developers]
+    click AA "https://ai.google.dev/edge/litert/ios/quickstart#bazel_developers"
+    Y --> AB[Bazel Framework Build]
+    click AB "https://ai.google.dev/edge/litert/build/ios#install_bazel"
+    AB --> AC[Dynamic Build]
+    click AC "https://ai.google.dev/edge/litert/build/ios#build_tensorflowlitec_dynamic_framework_recommended"
+    AB --> AD[Static Build]
+    click AD "https://ai.google.dev/edge/litert/build/ios#build_tensorflowlitec_static_framework"
+    AB --> AE[Selectively Build]
+    click AE "https://ai.google.dev/edge/litert/build/ios#selectively_build_tflite_frameworks"
 
-    V --> AE[Android]
-    click AE "https://ai.google.dev/edge/litert/build/android"
-    AE --> AF[Nightly Snapshots]
-    click AF "https://ai.google.dev/edge/litert/build/android#use_nightly_snapshots"
-    AE --> AG[Local Build]
-    click AG "https://ai.google.dev/edge/litert/build/android#build_litert_locally"
-    AG --> AH[Docker Build]
-    click AH "https://ai.google.dev/edge/litert/build/android#set_up_build_environment_using_docker"
-    AG --> AI[Manual Build Bazel]
-    click AI "https://ai.google.dev/edge/litert/build/android#install_bazel_and_android_prerequisites"
+    V --> AF[Android]
+    click AF "https://ai.google.dev/edge/litert/build/android"
+    AF --> AG[Nightly Snapshots]
+    click AG "https://ai.google.dev/edge/litert/build/android#use_nightly_snapshots"
+    AF --> AH[Local Build]
+    click AH "https://ai.google.dev/edge/litert/build/android#build_litert_locally"
+    AH --> AI[Docker Build]
+    click AI "https://ai.google.dev/edge/litert/build/android#set_up_build_environment_using_docker"
+    AI --> AJ[Manual Build Bazel]
+    click AJ "https://ai.google.dev/edge/litert/build/android#install_bazel_and_android_prerequisites"
 
     A[Build and Install] --> P[ARM Boards]
     P --> Q[Cross Compilation Cmake]
