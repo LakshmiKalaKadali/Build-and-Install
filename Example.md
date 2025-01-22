@@ -1,5 +1,5 @@
-'''
-mermaid
+```mermaid
+   %%{init: { 'themeVariables': {'titleFontSize': '50px','fontSize': '40px' } } }%%
 graph TD
     A[Build LiteRT for iOS] --> B[Prerequisites]
     A --> C[Build Options]
