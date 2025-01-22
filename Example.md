@@ -1,3 +1,5 @@
+'''
+mermaid
 graph TD
     A[Build LiteRT for iOS] --> B[Prerequisites]
     A --> C[Build Options]
