@@ -1,7 +1,7 @@
-#  LiteRT Build-and-Install Roadmap for Multi Architecture
+#  LiteRT Build-and-Install Mindmap for Multi Architecture
  
 
-The purpose of this diagram is to provide a clear and concise visual representation of the different LiteRT build and installation options available for a software project across various platforms (ARM boards and mobile). It serves as a roadmap for developers, helping them quickly identify the appropriate build method based on their target environment and preferred tools. This facilitates easier navigation of the build process, reducing confusion and saving time. It also helps in understanding the project's build system complexity and dependencies.
+The purpose of this diagram is to provide a clear and concise visual representation of the different LiteRT build and installation options available for a software project across various platforms (ARM boards and Mobile). It serves as a roadmap for developers, helping them quickly identify the appropriate build method based on their target environment and preferred tools. This facilitates easier navigation of the build process, reducing confusion and saving time. It also helps in understanding the project's build system complexity and dependencies.
 
 It's organized hierarchically:
 
