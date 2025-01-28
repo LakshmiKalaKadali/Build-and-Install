@@ -52,7 +52,7 @@ graph TD
     click AJ "https://ai.google.dev/edge/litert/build/android#install_bazel_and_android_prerequisites"
 
     A[Build and Install] --> P[ARM Boards]
-    P --> Q[Cross Compilation Bazel]
+    P --> Q[Cross Compilation Bazel ARM32/ARM64]
     click Q "https://ai.google.dev/edge/litert/build/arm#cross-compilation_for_arm_with_bazel"
     P --> R[Cross Compilation Cmake]
     click R "https://ai.google.dev/edge/litert/build/cmake_arm"
