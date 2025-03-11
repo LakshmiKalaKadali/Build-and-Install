@@ -1,3 +1,4 @@
+```mermaid
 flowchart TB
     subgraph Components
         model["Model Layer (example_model.py)"]
