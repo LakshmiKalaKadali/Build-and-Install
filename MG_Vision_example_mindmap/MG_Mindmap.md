@@ -1,5 +1,6 @@
 ```mermaid
-flowchart TB
+   %%{init: { 'themeVariables': {'titleFontSize': '50px','fontSize': '40px' } } }%%
+graph TD
     subgraph Components
         model["Model Layer (example_model.py)"]
         data["Data Layer (example_input.py)"]
